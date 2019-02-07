@@ -1,0 +1,124 @@
+html, body { height: 100%; width: 100%; margin: 0%; }
+
+/*=================================Login page============================*/
+#grizzlyIcon {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#loginButton{
+    background-color:rgba(128, 128, 128, 0.5);
+    border:none;
+    color:rgb(110, 110, 110);
+    padding:8px 25px 8px 25px;
+    display: inline-block;
+    text-align: center;
+    font-size:15px;
+    border-radius:15px;
+}
+#userInput{
+    Width:20%;
+    text-align: center;
+    font-size:15px;
+    padding: 5px 2px 5px 2px;
+    margin:20px;
+    border: none;
+    border-radius: 10px;
+    background-color:#ECECEC;
+    color: gray;
+}
+
+/*===================================Add Product============================*/
+/*Navigation bar*/
+#navLogo{
+    width:320px;
+}
+#navSearchBar{
+    Width:250px;
+    font-size:15px;
+    padding: 10px 10px 10px 20px;
+    margin:20px;
+    border: none;
+    border-radius: 10px;
+    background: url("../images/search.png");
+    background-color:white;
+    background-repeat: no-repeat;
+    background-position:right;
+    color: gray;
+}
+#logoutButton{
+    background-color:rgba(128, 128, 128, 0.74);
+    border:none;
+    color:rgb(43, 43, 43);
+    padding:8px 25px 8px 25px;
+    margin:20px 5px 20px 5px;
+    display: inline-block;
+    text-align: center;
+    font-size:15px;
+    border-radius:15px;
+    font-weight: bold;
+}
+nav, ul{
+    list-style-type: none;
+    height: 75px;
+    margin:0px;
+    padding:0px;
+    overflow:hidden;
+    background-color:  #ECECEC;
+}
+li{
+    float: left;
+}
+.right_float{
+    float: right;
+}
+nav ul li{
+    text-align: center;
+    display: inline;
+}
+#welcomeMessage{
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(53, 53, 53);
+    margin:25px;
+}
+nav{
+    margin:1%;
+    margin-bottom: 3%;
+}
+/*Card Layout*/
+.card {
+	background-color: #ECECEC;
+    transition: 0.3s;
+    width: 20%;
+    height: 75%;
+    display: inline-block;
+    margin-left:3%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg-secondary{
+	background-color:rgba(128, 128, 128, 0.74);
+}
+.card-head{
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+    display: block;
+    padding: 10px;
+    margin:10px 10px 10px 10px;
+}
+.blankImage{
+	height: 100px;
+    width: 100px;
+    background-color:rgba(128, 128, 128, 0.74);
+    margin-left: auto;
+    margin-right: auto;
+}

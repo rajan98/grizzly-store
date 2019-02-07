@@ -1,4 +1,8 @@
-html, body { height: 100%; width: 100%; margin: 0%; }
+html, body {
+    height: 100%; 
+    width: 100%; 
+    margin: 0%; 
+}
 
 /*=================================Login page============================*/
 #grizzlyIcon {
@@ -48,7 +52,7 @@ html, body { height: 100%; width: 100%; margin: 0%; }
     color: gray;
 }
 #logoutButton{
-    background-color:rgba(128, 128, 128, 0.74);
+    background-color:#b3b3b3;
     border:none;
     color:rgb(43, 43, 43);
     padding:8px 25px 8px 25px;
@@ -65,7 +69,7 @@ nav, ul{
     margin:0px;
     padding:0px;
     overflow:hidden;
-    background-color:  #ECECEC;
+    background-color:  #f2f2f2;
 }
 li{
     float: left;
@@ -88,10 +92,10 @@ nav{
 }
 /*Card Layout*/
 .card {
-	background-color: #ECECEC;
+	background-color: #f2f2f2;
     transition: 0.3s;
     width: 20%;
-    height: 90%;
+    height: 95%;
     display: inline-block;
     margin-left:3%;
     margin-right:3%;
@@ -110,7 +114,7 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
 }
 .bg-secondary{
-	background-color:rgba(128, 128, 128, 0.74);
+	background-color:#cdcdcd;
 }
 .card-head{
 	font-family: Arial, Helvetica, sans-serif;
@@ -122,26 +126,43 @@ nav{
 .blankImage{
 	height: 100px;
     width: 100px;
-    background-color:rgba(128, 128, 128, 0.74);
+    background-color:#cdcdcd;
     margin-left: auto;
     margin-right: auto;
 }
 
 /* Product and vendor setting*/
 .card2 {
-	background-color: #ECECEC;
     transition: 0.3s;
     width: 70%;
     height: 90%;
     display: inline-block;
     margin-right:3%;
-    float:right;
+    float: right;
 }
 .pvClass{
-    background-color: rgb(179, 179, 179);
+    background-color: #e6e6e6;
     border: none;
-    padding-right: 40%;
     font-size: 200%;
-    text-align:left;
-    padding-right:5%;
+    padding-right:20%;
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-left:2%;
+    float:left;
+}
+
+.active-title{
+    background-color:#cdcdcd;
+    box-shadow:0px 5px #999999;
+}
+
+.contentSection{
+    height: 90%;
+    margin-top:10%;
+}
+
+.addImage{
+    background-color:#f2f2f2;
+    height: 80%;
+    width: 40%;
 }
